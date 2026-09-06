@@ -1,0 +1,30 @@
+fastapi==0.141.1
+uvicorn[standard]==0.38.0
+pydantic-settings==2.7.1
+email-validator==2.2.0
+python-multipart==0.0.20
+
+sqlalchemy==2.0.36
+alembic==1.14.0
+psycopg2-binary==2.9.10
+
+celery==5.4.0
+redis==5.2.1
+
+# bcrypt pinned <4.1: passlib 1.7.4's self-test breaks against newer bcrypt releases
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-jose[cryptography]==3.3.0
+
+pypdf==5.1.0
+pdfplumber==0.11.4
+python-docx==1.1.2
+openpyxl==3.1.5
+
+# pinned to match the versions already proven working in Desktop/test/ADK
+google-adk==2.4.0
+litellm==1.83.7
+google-genai==2.12.0
+chromadb==1.5.9
+
+python-dotenv==1.0.1

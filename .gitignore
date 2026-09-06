@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/chroma_data/*
+!backend/chroma_data/.gitkeep
+.adk/
+node_modules/
+frontend/dist/
+frontend/.env
+*.db
+.DS_Store
+venv/
